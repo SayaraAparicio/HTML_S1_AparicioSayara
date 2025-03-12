@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(246, 211, 225);
+    font-family: Arial, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+
+    display: flex;
+}
+
+.content {
+    background-color: rgb(214, 185, 198);
+    border: 2px solid black;
+}
+#foto {
+    border-radius: 90%;
+    display: block;
+    margin: auto;
+}
+.columna1_1 {
+    background-color: white;
+    padding: 25px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.columna1_2 {
+    background-color: rgb(255, 240, 249);
+    padding: 25px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.contacto {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    font-style: georgia; /* Hace que el texto sea cursivo */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    color: #333; /* Color de texto oscuro */
+    padding: 10px; /* Agrega un poco de espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.columna1_3 {
+    background-color: rgb(255, 240, 249);
+    padding: 25px;
+    margin: 5px 10px;
+    border: 2px solid black;
+}
+
+.columna2_1 {
+    background-color: rgb(255, 240, 249);
+    padding: 24px;
+    margin: 2px 5px;
+    border: 2px solid black;
+    width: 90%;
+    border-radius: 100%;
+
+}
+.educacion {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    font-style: georgia; /* Hace que el texto sea cursivo */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    color: #333; /* Color de texto oscuro */
+    padding: 10px; /* Agrega un poco de espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding-left: 0; /* Alinea el texto a la izquierda */
+}
+
+li {
+    margin-bottom: 10px; /* Espacio entre cada habilidad */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+}
+
+
+.columna2_2 {
+    background-color: rgb(255, 240, 249);
+    padding: 24px;
+    margin: 0.6799999px 10px;
+    border: 2px solid black;
+}
+
+.columna3_1 {
+    background-color: rgb(255, 240, 249);
+    padding: 20px;
+    margin: 5px 1px;
+    border: 2px solid black;
+}
