@@ -1,6 +1,7 @@
 # Dia 3 💻
 ---
-A continuación se va a realizar la explicación del funcionamiento del código para la pagina HTML la cual se desarrollo para una Hoja de Vida a manera de tablas
+### Hoja De Vida en HTML y CSS
+A continuación se va a realizar la explicación del funcionamiento del código para la pagina HTML la cual se desarrollo para una Hoja de Vida, estructurada mediante tablas en HTML y estilizada con CSS
 
 --- 
 ## Instalaciones 🔩
@@ -23,7 +24,20 @@ Click derecho a:
 Open with Live Server
 ```
 
+- La hoja de Vida esta organizada en una tabla donde se distribuyen los datos personales, educacón y proyectos.
+- Los estilos del archivo, mejoran la visualización de la tabla, definiendo colores, fuentes y márgenes.
+
+## 🌟 Personalización
+Si deseas modificar este proyecto, puedes realizar esto:
+
+- Cambiar la imagen dentro de la carpeta [foto](foto/foto.png) y actualizar referencias en el HTML
+- Edita el contenido del [index](index.html) con tu información.
+- Ajusta los estilos en [styles](style) para cambiar colores y diseño.
+
+---
+
 Si es necesario, asegúrate de que los archivos de css, estén correctamente vinculados para que la página se vea y funcione correctamente.
+
 ---
 
 ## Contenido 📖
@@ -31,8 +45,25 @@ En esta carpeta encontrarás diferentes archivos realizados para desarrollar una
 
 | Indice | Titulo  |
 |--|--|
-| 1 | [index.html](#) |
-| 2 | [foto](#) |
-| 3 | [style](#) |
+| 1 | [index.html](index.html) |
+| 2 | [foto](foto) |
+| 3 | [style](style) |
 
+---
+### 🗒️ index.html
+---
+Contiene la estructura principal de la hoja de vida. Se organiza desde tablas para distribuir la información de manera clara y ordenada.
+
+---
+
+### 🖼️ foto
+---
+Imagen utilizada dentro de la hoja de vida.
+
+---
+### 🎨 style
+---
+Archivo CSS que proporciona los estilos al documento HTML, mejorando la presentación visual.
+
+---
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme. 🚀
