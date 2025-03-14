@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 228, 245);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 228, 245);
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.primero{
+    align-items: center;
+}
+
+.segundo{
+    align-items: center;
+}
+
+.tercero{
+    align-items: center;
+}
+
+
+.quinto{
+    align-items: center;
+}
+
+.sexto{
+    align-items: center;
+}

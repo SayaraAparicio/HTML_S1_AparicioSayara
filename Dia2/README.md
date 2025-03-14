@@ -1,7 +1,7 @@
-# Dia 3 💻
+# Dia 2 💻
 ---
 ### Hoja De Vida en HTML y CSS
-A continuación se va a realizar la explicación del funcionamiento del código para la pagina HTML la cual se desarrollo para una Hoja de Vida, estructurada mediante tablas en HTML y estilizada con CSS
+A continuación se va a realizar la explicación del funcionamiento del código para la pagina HTML la cual se desarrollo para una Hoja de Vida, estructurada mediante divs en HTML y estilizada con CSS
 
 --- 
 ## Instalaciones 🔩
@@ -25,7 +25,7 @@ Click derecho a:
 Open with Live Server
 ```
 
-- La hoja de Vida esta organizada en una tabla donde se distribuyen los datos personales, educación y proyectos.
+- La hoja de Vida esta organizada en secciones donde se distribuyen los datos personales, educación y proyectos.
 - Los estilos del archivo, mejoran la visualización de la tabla, definiendo colores, fuentes y márgenes.
 
 ## 🌟 Personalización
@@ -53,7 +53,7 @@ En esta carpeta encontrarás diferentes archivos realizados para desarrollar una
 ---
 ### 🗒️ index.html
 ---
-Contiene la estructura principal de la hoja de vida. Se organiza desde tablas para distribuir la información de manera clara y ordenada.
+Contiene la estructura principal de la hoja de vida. Se organiza desde divs para distribuir la información de manera clara y ordenada.
 
 ---
 
