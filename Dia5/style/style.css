@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    background-image: url("../fotos/Path1.svg");
+    background-size: cover;
+    background-image: no-repeat;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('../fonts/Amazon\ Ember\ Light.ttf') format('truetype');
+    font-weight: 300; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('../fonts/Amazon\ Ember\ Bold.ttf') format('truetype');
+    font-weight: 700; 
+    font-style: normal;
+}
+
+#foto1{
+    width: 1920px;
+    height: 1080px;
+}
+
+#foto2{
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    display: block;
+
+}
+
+#foto3{
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    display: block;
+    margin-top: -10px;
+}
+
+#foto4{
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+
+}
+
+.log {
+    font-family: 'Amazon Ember', sans-serif;
+    font-style: 'Amazon Ember Light';
+}
+
+.div1{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.div2{
+    position: absolute;
+    text-align: center;
+    top: 434px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    font-size: 25px;
+    color:#FFFFFF;
+    display: block;
+    font-weight: bold;
+    margin-top: 35px;
+
+
+}
+.div2 h1{
+    font-weight: bold;
+}
+.div3{
+    position: absolute;
+    top: 570px;
+    left: 300px;
+    width: 1151px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    color:#FFFFFF;
+    display: block;
+    margin-top: 30px;
+}
+
+.div4{
+    position: absolute;
+    top: 200px;
+    left: 430px;
+    width: 458px;
+    height: 104px;
+    text-align: center;
+    font-size: 37px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+     color: black;
+     padding-bottom: 15px;
+}
+
+.d3 {
+    font-family: 'Amazon Ember Light ', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+}
+
+.d4{
+    font-family: 'Amazon Ember Light', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+
+}
+
+#ft5{
+    position: absolute;
+    top: 530px;
+    left: calc(50% - 830px); 
+    width: 1792px;
+    height: 567px;
+    margin-top: 10px; 
+}
+
+#ft6{
+    position: absolute;
+    top: 910px;
+    left: calc(50% - 830px); 
+    width: 1792px;
+    height: 724px;
+    margin-top: 30px; 
+}
+
+.pelis{
+    position: relative
+}
+
+.pelis .peliculas{
+    position : absolute;
+    top: 1050px;
+    left: 350px;
+    width: calc(100% - 500px);
+    height: calc(100% - 500px);
+    color: white;
+    text-align: center;
+}
+
+.pelis .peliculas h2{
+    margin: 20px 0;
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 5px;
+    white-space: nowrap;
+    transform: translate(-80%, -70%);
+}
+
+.pelis .peliculas .movie{
+    display: flex;
+    justify-content: center;
+    size-adjust: 100%;
+    gap: 10px;
+    margin: 20px 0;
+    transform: translate(-5%, -30%);
+}
+
+.pelis .peliculas .movie img{
+    width: 180px;
+    height: 309px;
+    top: 1670px;
+    left: 863px; 
+    size-adjust: 100%;
+}
+
+.pelis .peliculas .p{
+    margin:10px 0;
+    font-size: 16px;
+}
+
+#ft7 {
+    position: absolute;
+    top: 1670px;
+    left: calc(50% - 830px); 
+    width: 1792px;
+    height: 724px;
+    margin-top: 20px; 
+}
+.cancel{
+    position: relative
+}
+.cancel .cancelar{
+    position : absolute;
+    top: 1890px;
+    left: 350px;
+    width: calc(100% - 500px);
+    height: calc(100% - 500px);
+    color: white;
+    text-align: center;
+
+}
+
+.cancel .cancelar h2{
+    margin: 20px 0;
+    padding: 30px 0;
+    left: calc(50% - 300px);
+    font-weight: bold;
+    font-size: 60px;
+    white-space: nowrap;
+    transform: translate(-10%, -100%);
+}
+
+#iconx{
+    transform: translate(-5%, -60%);
+}
+.cancel .cancelar pre{
+
+    transform: translate(-50%, -30%);
+    font-size: 40px;
+    font-family: 'Amazon Ember', sans-serif;
+    font-style: 'Amazon Ember Light';
+}
+
+#comp {
+    font-family: "Amazon Ember Light";
+    color: white;
+    margin-top: 93px;
+    margin-left: 416.33px;
+    font-size: 125px;
+    width: 1118px;
+    height: 125px;
+    text-align: center;
+}
+#devices{
+    font-family: "Amazon Emberl";
+    color: white;
+    margin-top: 44px;
+    margin-left: 179.33px;
+    font-size: 45px;
+    text-align: center;
+    width: 1544px;
+    height: 99px;
+}
+#flecha{
+    width: 26.61px;
+    height: 18.9px;
+    margin-top: 294.06px;
+    margin-left: 303.27px;
+}
+#ipo{
+    margin-top: -100px;
+    margin-left: 384.33px;
+}
+#mac{
+    margin-left: 683.33px;
+    margin-top: -390px;
+}
+#tmr{
+    margin-top: 114px;
+    margin-left: 541.33px;
+    margin-inline-end: 36px;
+}
+#pc{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -150px;
+}
+#flecha2{
+    position: absolute;
+    rotate: 210grad;
+    margin-left: 170px;
+    margin-top: -300.62px;
+}
