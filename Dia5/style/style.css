@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("../fotos/Path1.svg");
+    background-color: black;
     background-size: cover;
     background-image: no-repeat;
     font-family: 'Amazon Ember', sans-serif;
@@ -176,6 +176,15 @@ body{
     margin-top: 5px;
     white-space: nowrap;
     transform: translate(-80%, -70%);
+    font-family: 'Amazon Ember', sans-serif;
+    font-style: 'Amazon Ember Light';
+}
+
+#txt{
+    font-family: 'Amazon Ember', sans-serif;
+    font-style: 'Amazon Ember Light';
+    font-size: 30px;
+    text-align: center; 
 }
 
 .pelis .peliculas .movie{
@@ -243,53 +252,89 @@ body{
     font-style: 'Amazon Ember Light';
 }
 
-#comp {
-    font-family: "Amazon Ember Light";
+.compatible {
+    position: relative;
+    text-align: center;
     color: white;
-    margin-top: 93px;
-    margin-left: 416.33px;
+    padding: 50px 0;
+    top: 2350px;
+}
+
+.compatible .contenido {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.compatible .contenido h1 {
     font-size: 125px;
-    width: 1118px;
-    height: 125px;
-    text-align: center;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    transform: translate(-5%, -15%);
+    font-family: 'Amazon Ember', sans-serif ;
+    font-style: 'Amazon Ember Light';
+
 }
-#devices{
-    font-family: "Amazon Emberl";
-    color: white;
-    margin-top: 44px;
-    margin-left: 179.33px;
+
+.compatible .contenido pre {
     font-size: 45px;
+    margin-bottom: 40px;
+    transform: translate(-20%, -70%);
+    font-family: 'Amazon Ember', sans-serif ;
+    font-style: 'Amazon Ember Light';
     text-align: center;
-    width: 1544px;
-    height: 99px;
+
 }
-#flecha{
-    width: 26.61px;
-    height: 18.9px;
-    margin-top: 294.06px;
-    margin-left: 303.27px;
+
+.compatible .dispo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
-#ipo{
-    margin-top: -100px;
-    margin-left: 384.33px;
+
+.compatible .dispositivo {
+    text-align: center;
 }
-#mac{
-    margin-left: 683.33px;
-    margin-top: -390px;
+
+.compatible .dispositivo img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center;
 }
-#tmr{
-    margin-top: 114px;
-    margin-left: 541.33px;
-    margin-inline-end: 36px;
+
+.compatible .dispositivo p {
+    font-size: 1000px;
 }
-#pc{
-    position: absolute;
-    margin-top: -400px;
-    margin-left: -150px;
+.flecha{
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+   
 }
-#flecha2{
-    position: absolute;
-    rotate: 210grad;
-    margin-left: 170px;
-    margin-top: -300.62px;
+.iphone{
+    top: 3606px;
+    left: 386px;
+    width: 300px;
+    height: 280px;
+    transform: translate(-5%, -20%);
+}
+.mac{
+    top: 3440px;
+    left: 400px;
+    width: 400px;
+    height: 400px;
+    transform: translate(2%, -20%);
+}
+.pc{
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    transform: translate(20%, -20%);
+}
+
+#privacy {
+    transform: translate(30%, -20%);
 }
