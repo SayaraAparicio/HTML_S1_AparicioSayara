@@ -1,0 +1,174 @@
+body {
+    background-image: linear-gradient(white, black);
+    height: 1080px;
+    width: 1920px;
+}
+
+#recblanco{
+    position:absolute;
+    top: 70px;
+    left: calc(50% - 830px);
+    width: 470px;
+    height: 400px;
+}
+
+#recnegro{
+    position:absolute;
+    top: 136px;
+    left: calc(20% - 37px);
+    width: 470px;
+    height: 268px;
+}
+
+.blanco {
+    position: relative;
+}
+.blanco .recblanco {
+    position: absolute;
+}
+
+#loguito {
+    position: absolute;
+    top: 155px;
+    left: calc(9.3% - 35px);
+    width: 70px;
+    height: 17px;
+
+}
+
+#comptarjeta {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 10px ;
+    top: 145px;
+    left: 390px;
+    width: 2px;
+    height: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+}
+
+#linea{
+    position: absolute;
+    top: 170px;
+    left: 390px;
+    width: 70px;
+    height: 1px;
+}
+
+#saldo {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 10px ;
+    top: 145px;
+    left: 477px;
+    width: 2px;
+    height: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+}
+
+#lupa {
+    white-space: nowrap;
+    position: absolute;
+    top: 156px;
+    left: 280px;
+    width: 500px;
+    height: 10px;
+ 
+}
+
+#carrito {
+    white-space: nowrap;
+    position: absolute;
+    top: 156px;
+    left: 280px;
+    width: 545px;
+    height: 10px;
+}
+
+.texto {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 15px;
+    top: 330px;
+    left: 155px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+}
+
+.texto2 {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 12px;
+    top: 352px;
+    left: 155px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+}
+
+#cuadrito {
+   position: absolute;
+   top: 344px;
+   left: 502px;
+   width: 50px ;
+   height: 47px;
+
+}
+
+.comprar {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 7px;
+    top: 365px;
+    left: 513px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+}
+
+#loguito2 {
+    position: absolute;
+    top: 355px;
+    left: calc(31% - 90px);
+    width: 45px;
+    height: 10px;
+
+}
+
+#Tarjeta {
+    position: absolute;
+    top: 170px;
+    width: 300px;
+    left: 190px;
+}
+
+#flechaup {
+    position: absolute;
+    top: 155px;
+    left: 578px;
+    width: 8px;
+}
+
+#flechadown {
+    position: absolute;
+    top: 380px;
+    left: 578px;
+    width: 8px;
+}
+
+#numeros {
+    position: absolute;
+    top: 230px;
+    left: 578px;
+    width: 8px;
+}
+
+#cantidad {
+    position: absolute;
+    font-size: 6px;
+    top: 190px;
+    left: 570px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+}
