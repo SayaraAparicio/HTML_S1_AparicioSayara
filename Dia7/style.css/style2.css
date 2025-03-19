@@ -226,3 +226,15 @@ body {
     font-style: Arial;
     z-index: 10;
 }
+
+.recverde {
+    background-color: #D5FF43;
+    border: 0.2px solid #D5FF43;
+    border-radius: 5px;
+    position: absolute;
+    top: 344px;
+    left: 502px;
+    width: 50px;
+    height: 42px;
+
+}

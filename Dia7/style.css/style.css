@@ -2,19 +2,19 @@ body {
     background-image: linear-gradient(white, black);
     height: 1080px;
     width: 1920px;
-    
+
 }
 
-#recblanco{
-    position:absolute;
+#recblanco {
+    position: absolute;
     top: 70px;
     left: calc(50% - 830px);
     width: 470px;
     height: 400px;
 }
 
-#recnegro{
-    position:absolute;
+#recnegro {
+    position: absolute;
     top: 136px;
     left: calc(20% - 37px);
     width: 470px;
@@ -24,6 +24,7 @@ body {
 .blanco {
     position: relative;
 }
+
 .blanco .recblanco {
     position: absolute;
 }
@@ -40,7 +41,7 @@ body {
 #comptarjeta {
     white-space: nowrap;
     position: absolute;
-    font-size: 10px ;
+    font-size: 10px;
     top: 145px;
     left: 390px;
     width: 2px;
@@ -48,14 +49,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: Arial;
 }
+
 .button {
     font-family: 'Arial';
-    font-size: 10px; /* Tamaño del texto */
-    color: rgb(0, 0, 0); /* Color del texto */
-    background-color: white; /* Color de fondo */
-    border: none; 
-    padding: 3px 5px; /* Espaciado interno */
-    border-radius: 7px; /* Bordes redondeados */
+    font-size: 10px;
+    /* Tamaño del texto */
+    color: rgb(0, 0, 0);
+    /* Color del texto */
+    background-color: white;
+    /* Color de fondo */
+    border: none;
+    padding: 3px 5px;
+    /* Espaciado interno */
+    border-radius: 7px;
+    /* Bordes redondeados */
     cursor: pointer;
     transition: background-color 0.3s ease;
     top: 151px;
@@ -66,10 +73,13 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .button:hover {
-    background-color: #218838; /* Cambia el color en hover */
+    background-color: #218838;
+    /* Cambia el color en hover */
 }
-#linea{
+
+#linea {
     position: absolute;
     top: 170px;
     left: 390px;
@@ -84,7 +94,7 @@ body {
     left: 280px;
     width: 500px;
     height: 10px;
- 
+
 }
 
 #carrito {
@@ -117,11 +127,11 @@ body {
 }
 
 #cuadrito {
-   position: absolute;
-   top: 344px;
-   left: 502px;
-   width: 50px ;
-   height: 47px;
+    position: absolute;
+    top: 344px;
+    left: 502px;
+    width: 50px;
+    height: 47px;
 
 }
 
@@ -180,4 +190,16 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-style: Arial;
+}
+
+.recverde {
+    background-color: #D5FF43;
+    border: 0.2px solid #D5FF43;
+    border-radius: 5px;
+    position: absolute;
+    top: 344px;
+    left: 502px;
+    width: 50px;
+    height: 42px;
+
 }
