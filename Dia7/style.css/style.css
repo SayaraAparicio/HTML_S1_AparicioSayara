@@ -16,12 +16,9 @@ body {
 #recnegro {
     position: absolute;
     top: 136px;
-    left: calc(30% - 14px);
-    width: 38px;
+    left: calc(20% - 37px);
+    width: 470px;
     height: 268px;
-    color: black;
-    background-color: black;
-    border-radius: 0px 3px 3px 0px;
 }
 
 .blanco {
