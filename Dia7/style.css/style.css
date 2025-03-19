@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(white, black);
     height: 1080px;
     width: 1920px;
+    
 }
 
 #recblanco{
@@ -47,25 +48,33 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: Arial;
 }
-
+.button {
+    font-family: 'Arial';
+    font-size: 10px; /* Tamaño del texto */
+    color: rgb(0, 0, 0); /* Color del texto */
+    background-color: white; /* Color de fondo */
+    border: none; 
+    padding: 3px 5px; /* Espaciado interno */
+    border-radius: 7px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    top: 151px;
+    left: 468px;
+    z-index: 10;
+    white-space: nowrap;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+.button:hover {
+    background-color: #218838; /* Cambia el color en hover */
+}
 #linea{
     position: absolute;
     top: 170px;
     left: 390px;
     width: 70px;
     height: 1px;
-}
-
-#saldo {
-    white-space: nowrap;
-    position: absolute;
-    font-size: 10px ;
-    top: 145px;
-    left: 477px;
-    width: 2px;
-    height: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Arial;
 }
 
 #lupa {
