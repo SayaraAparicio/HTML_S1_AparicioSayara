@@ -513,25 +513,25 @@ p#learnmore3 {
     width: 500px;
     height: 2px;
     position: absolute;
-    top: 2740px;
+    top: 2760px;
     left: 380px;
 
 }
 
 #copyright{
     font-family: 'Open Sauce';
-    font-size: 70%;
+    font-size: 9px;
     color: white;
     margin-top: 110px;
-    margin-left: 50%;
+    margin-left: 220px;
 }
 
 #cl {
     font-family: 'Open Sauce';
-    font-size: 70%;
+    font-size: 9px;
     color: #ce9e5a;
-    margin-top: -25px;
-    margin-left: 96%;
+    margin-top: -20px;
+    margin-left: 365px;
 }
 
 
