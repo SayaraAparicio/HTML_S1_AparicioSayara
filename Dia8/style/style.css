@@ -509,10 +509,10 @@ p#learnmore3 {
 }
 
 #linea3 {
+    position: absolute;
     background-color: #ce9e5a;
     width: 500px;
     height: 2px;
-    position: absolute;
     top: 2760px;
     left: 380px;
 
