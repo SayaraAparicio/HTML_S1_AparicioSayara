@@ -9,6 +9,11 @@ En el siguiente README puedes encontrar todos los trabajos de html hechos, para 
 | 1 | [Dia1](Dia1) |
 | 2 | [Dia2](Dia2) |
 | 3 | [Dia3](Dia3) |
+| 4 | [Dia4](Dia4) |
+| 5 | [Dia5](Dia5) |
+| 6 | [Dia6](Dia6) |
+| 7 | [Dia7](Dia7) |
+| 8 | [Dia8](Dia8) |
 
 ### Instalaciones 🔩
 ---

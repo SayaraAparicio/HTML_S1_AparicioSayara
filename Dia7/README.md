@@ -27,10 +27,10 @@ Open with Live Server
 
 ```
 ---
-🏁 Carga de la página: El usuario accede a la página de Metrolinea.
-🎨 Estilos CSS: Se aplican estilos
-🖼️ Imágenes y fuentes: Se incluyen elementos visuales extraídos y adaptados.
-📄 Diseño: Se optimiza la vista para diferentes tamaños de pantalla.
+1. 🏁 Carga de la página: El usuario accede a la página de Metrolinea.
+2. 🎨 Estilos CSS: Se aplican estilos
+3. 🖼️ Imágenes y fuentes: Se incluyen elementos visuales extraídos y adaptados.
+4. 📄 Diseño: Se optimiza la vista para diferentes tamaños de pantalla.
 
 ---
 
