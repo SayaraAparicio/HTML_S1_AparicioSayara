@@ -24,7 +24,8 @@ body {
 
 .primero {
     display: flex;
-    margin: 0px 15%;
+    margin: 0px 190px;
+    margin-top: 15px;
 }
 
 #loguito {
@@ -37,11 +38,11 @@ body {
 
 a.vinculo {
     color: white;
-    margin: 2% 1%;
-    padding: 0% 10%;
+    margin: 2px 3px;
+    padding: 0px 20px;
     text-decoration: none;
     font-family: 'Open Sauce';
-    font-size: 80%;
+    font-size: 14px;
 }
 
 a.vinculo:hover {
@@ -51,33 +52,33 @@ a.vinculo:hover {
 }
 
 div.vinculo {
-    margin-left: 55%;
-    margin-top: 2%;
+    margin-left: 475px;
+    margin-top: 20px;
     display: flex;
 }
 
 #cafesitoinicial {
-    width: 20%;
-    height: 20%;
+    width: 380px;
+    height: 380px;
 }
 
 .textico {
     color: white;
-    font-size: 300%;
+    font-size: 50px;
     font-family: Playfair;
 }
 
 #inicio {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 70px;
     padding-top: 0px;
 }
 
 button#shop-now {
     background-color: rgb(200, 146, 74);
     border-color: rgb(229, 170, 7, 0);
-    font-size: 50%;
-    width: 10%;
+    font-size: 7px;
+    width: 100px;
     height: 30px;
 }
 
@@ -88,21 +89,21 @@ button#shop-now:hover {
 
 p#shop-now {
     margin: 0;
-    font-size: 150%;
+    font-size: 10px;
     font-family: 'Open Sauce';
 }
 
 .story {
     display: flex;
-    margin-top: 15%;
+    margin-top: 270px;
 }
 
 img#cafesito2 {
-    width: 45%;
-    height: 35%;
-    margin-right: 10%;
-    margin-left: 5%;
-    margin-top: -3%;
+    width: 600px;
+    height: 400px;
+    margin-right: 200px;
+    margin-left: 10px;
+    margin-top: -30px;
 }
 
 #x {
@@ -112,12 +113,12 @@ img#cafesito2 {
     font-family: 'Arial';
     font-size: 13px;
     position: relative;
-    left: 10px;
+    left: -60px;
     top: -20px;
 }
 
 #Story {
-    width: 30%;
+    width: 340px;
 }
 
 #linea {
@@ -125,17 +126,17 @@ img#cafesito2 {
     width: 120px;
     height: 2px;
     margin: 20px auto;
-    margin-left: -130px;
-    margin-top: -166px;
+    margin-left: -190px;
+    margin-top: -180px;
 }
 
 .textico2 {
     color: white;
-    font-size: 390%;
+    font-size: 70px;
     font-weight: 400;
     font-family: 'Stone';
     position: relative;
-    left: 10px;
+    left: -60px;
 }
 
 button#learnmore {
@@ -143,9 +144,9 @@ button#learnmore {
     border-color: rgb(229, 170, 7, 0);
     font-size: 50%;
     position: relative;
-    left: 10px;
-    width: 26%;
-    height: 9%;
+    left: -60px;
+    width: 100px;
+    height: 30px;
 }
 
 button#learnmore:hover {
@@ -154,39 +155,39 @@ button#learnmore:hover {
 }
 
 p#learnmore {
-    font-size: 115%;
+    font-size: 10px;
     margin: 0;
     font-family: 'Open Sauce';
 }
 
 .perfect {
     display: flex;
-    margin-top: 10%;
+    margin-top: 220px;
 }
 
 img#cafesito3 {
-    width: 25%;
-    height: 35%;
-    margin-left: 170px;
+    width: 600px;
+    height: 350px;
+    margin-left: 70px;
 }
 
 .textoperfect {
     color: white;
-    font-size: 165%;
+    font-size: 65px;
     font-family: 'Stone';
     position: relative;
     left: 100px;
-    margin-top: 10px;
+    margin-top: -10px;
 
 }
 
 #x2 {
     color: white;
     font-family: 'Arial';
-    font-size: 13px;
+    font-size: 14px;
     position: relative;
-    left: -60px;
-    top: 170px;
+    left: -190px;
+    top: 210px;
     word-break: break-word;
     line-break: loose;
 
@@ -195,12 +196,12 @@ img#cafesito3 {
 button#learnmore2 {
     background-color: rgb(200, 146, 74);
     border-color: rgb(229, 170, 7, 0);
-    font-size: 50%;
+    font-size: 15px;
     position: relative;
-    left: -855px;
-    width: 8%;
-    height: 25px;
-    top: 220px;
+    left: -958px;
+    width: 200px;
+    height: 30px;
+    top: 260px;
 }
 
 button#learnmore2:hover {
@@ -209,28 +210,28 @@ button#learnmore2:hover {
 }
 
 p#learnmore2 {
-    font-size: 115%;
+    font-size: 10px;
     margin: 0;
     font-family: 'Open Sauce';
 }
 
 .products {
     display: flex;
-    margin-top: 15%;
+    margin-top: 270px;
 }
 
 .textoproducts {
     color: white;
-    font-size: 205%;
+    font-size: 80px;
     font-family: 'Stone';
-    position: relative;
+    position: absolute;
     left: 60px;
     margin-top: 10px;
 
 }
 #product1{
-    width: 35%;
-    margin-left: 90px;
+    width: 100px;
+    margin-left: 80px;
     margin-top: -50px;
     z-index: 10;
 }
@@ -242,13 +243,13 @@ p#learnmore2 {
     border: 2px solid #ce9e5a; 
     background: transparent;
     margin-top: 200px;
-    margin-left: -150px; 
+    margin-left: 150px; 
     
 }
 
 .mocha{
     color: white;
-    font-size: 100%;
+    font-size: 15px;
     font-family: 'Barlow';
     margin-left: 110px;
 
@@ -256,7 +257,7 @@ p#learnmore2 {
 
 .desc{
     color: white;
-    font-size: 70%;
+    font-size: 30px;
     font-family: 'Open Sauce';
     margin-left: 100px;
     margin-top: 50px;
@@ -267,12 +268,12 @@ p#learnmore2 {
 button#learnmore3 {
     background-color: rgb(200, 146, 74);
     border-color: rgb(229, 170, 7, 0);
-    font-size: 50%;
-    position: relative;
+    font-size: 15px;
+    position: absolute;
     left: 90px;
-    width: 35%;
-    height: 25px;
-    top: 10px;
+    width: 200px;
+    height: 30px;
+    top: 5px;
 }
 
 button#learnmore3:hover {
@@ -281,15 +282,15 @@ button#learnmore3:hover {
 }
 
 p#learnmore3 {
-    font-size: 115%;
+    font-size: 15px;
     margin: 0;
     font-family: 'Open Sauce';
 }
 
 #product2{
-    width: 35%;
-    margin-left: 90px;
-    margin-top: -50px;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: -40px;
     z-index: 10;
 }
 .rec2 {
@@ -299,14 +300,14 @@ p#learnmore3 {
     height: 340px;  
     border: 2px solid #ce9e5a; 
     background: transparent;
-    margin-top: -297px;
+    margin-top: -300px;
     margin-left: 360px; 
     
 }
 
 .mocha{
     color: white;
-    font-size: 100%;
+    font-size: 15px;
     font-family: 'Barlow';
     margin-left: 110px;
 
@@ -314,7 +315,7 @@ p#learnmore3 {
 
 .desc{
     color: white;
-    font-size: 70%;
+    font-size: 30px;
     font-family: 'Open Sauce';
     margin-left: 100px;
     margin-top: 50px;
@@ -325,10 +326,10 @@ p#learnmore3 {
 button#learnmore3 {
     background-color: rgb(200, 146, 74);
     border-color: rgb(229, 170, 7, 0);
-    font-size: 50%;
+    font-size: 15px;
     position: relative;
     left: 90px;
-    width: 35%;
+    width: 35px;
     height: 25px;
     top: 10px;
 }
@@ -339,15 +340,15 @@ button#learnmore3:hover {
 }
 
 p#learnmore3 {
-    font-size: 115%;
+    font-size: 10px;
     margin: 0;
     font-family: 'Open Sauce';
 }
 
 #product3{
-    width: 35%;
-    margin-left: 90px;
-    margin-top: -50px;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: -40px;
     z-index: 10;
 }
 .rec3 {
@@ -365,7 +366,7 @@ p#learnmore3 {
 
 .mocha{
     color: white;
-    font-size: 100%;
+    font-size: 15px;
     font-family: 'Barlow';
     margin-left: 110px;
 
@@ -373,7 +374,7 @@ p#learnmore3 {
 
 .desc{
     color: white;
-    font-size: 70%;
+    font-size: 10px;
     font-family: 'Open Sauce';
     margin-left: 100px;
     margin-top: 50px;
@@ -384,10 +385,10 @@ p#learnmore3 {
 button#learnmore3 {
     background-color: rgb(200, 146, 74);
     border-color: rgb(229, 170, 7, 0);
-    font-size: 50%;
+    font-size: 8px;
     position: relative;
     left: 90px;
-    width: 35%;
+    width: 70px;
     height: 25px;
     top: 10px;
 }
@@ -398,7 +399,7 @@ button#learnmore3:hover {
 }
 
 p#learnmore3 {
-    font-size: 115%;
+    font-size: 9px;
     margin: 0;
     font-family: 'Open Sauce';
 }
@@ -414,35 +415,35 @@ p#learnmore3 {
 
 .contact {
     display: flex;
-    margin-top: 25%;
+    margin-top: 160px;
 }
 
 #titulo{
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: white;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 #us {
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: #ce9e5a;
-    margin-top: -52.5px;
-    margin-left: 170px;
+    margin-top: -55px;
+    margin-left: 105px;
 
 }
 #parrafo1{
     font-family: 'Open Sauce';
-    font-size: 70%;
+    font-size: 15px;
     color: white;
     margin-top: 150px;
-    margin-left: -140px;
+    margin-left: -190px;
 }
 
 #us2 {
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: #ce9e5a;
     margin-top: -180px;
     margin-left: 5px;
@@ -450,7 +451,7 @@ p#learnmore3 {
 }
 #parrafo2{
     font-family: 'Open Sauce';
-    font-size: 70%;
+    font-size: 15px;
     color: white;
     margin-top: -130px;
     margin-left: 170px;
@@ -458,52 +459,52 @@ p#learnmore3 {
 
 #titulo1 {
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: white;
-    margin-top: -180px;
-    margin-left: 270px;
+    margin-top: -250px;
+    margin-left: 250px;
 
 }
 #us2 {
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: #ce9e5a;
-    margin-top: -180px;
+    margin-top: -249px;
     margin-left: 5px;
 
 }
 #parrafo2{
     font-family: 'Open Sauce';
-    font-size: 70%;
+    font-size: 15px;
     color: white;
-    margin-top: -130px;
+    margin-top: -196px;
     position: absolute;
-    left: 370px;
+    left: 310px;
 }
 
 #titulo2 {
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: white;
-    margin-top: -179px;
+    margin-top: -248px;
     position: absolute;
-    left: 860px;
+    left: 870px;
 
 }
 #hourse {
     font-family: 'Barlow';
-    font-size: 150%;
+    font-size: 25px;
     color: #ce9e5a;
-    margin-top: -178px;
+    margin-top: -248px;
     position: absolute;
-    left: 954px;
+    left: 968px;
 
 }
 #parrafo3{
     font-family: 'Open Sauce';
-    font-size: 70%;
+    font-size: 15px;
     color: white;
-    margin-top: -129px;
+    margin-top: -194px;
     position: absolute;
     left: 840px;
 }
@@ -513,8 +514,8 @@ p#learnmore3 {
     background-color: #ce9e5a;
     width: 500px;
     height: 2px;
-    top: 3500px;
-    left: 380px;
+    top: 3420px;
+    left: 360px;
 
 }
 
@@ -523,7 +524,7 @@ p#learnmore3 {
     font-size: 9px;
     color: white;
     margin-top: 110px;
-    margin-left: 220px;
+    margin-left: 250px;
 }
 
 #cl {
@@ -531,7 +532,7 @@ p#learnmore3 {
     font-size: 9px;
     color: #ce9e5a;
     margin-top: -20px;
-    margin-left: 365px;
+    margin-left: 395px;
 }
 
 
