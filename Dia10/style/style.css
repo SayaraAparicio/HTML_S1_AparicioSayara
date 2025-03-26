@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('../DIA8/fonts/Barlow-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSauce-Black';
+    src: url('../DIA8/fonts/OpenSauceOne-SemiBold.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Playfair';
+    src: url('../DIA8/fonts/PlayfairDisplay-Black.ttf');
+}
+
+p{
+    font-family: 'OpenSauce-Black';
+}
+
+h1{
+    font-family: 'Playfair';
+}
+
+#fondo {
+    background-color: black;
+}
+
+.barra-principal {
+    display: flex;
+    margin: 0px 15%;
+}
+
+#logo {
+    color: white;
+    margin-right: 3%;
+    font-family: 'Barlow';
+}
+
+a.hypervinculo {
+    color: white;
+    margin: 2% 1%;
+    padding: 0% 10%;
+    text-decoration: none;
+}
+
+a.hypervinculo {
+    color: white;
+    margin: 2% 1%;
+    padding: 0% 10%;
+    text-decoration: none;
+    border: 1px solid  rgb(256, 256, 256, 0) rgb(256, 256, 256, 0) rgb(256, 256, 256, 0) ;
+}
+
+a.hypervinculo:hover{
+    color:rgb(200, 146, 74) ;
+}
+
+
+div.hypervinculo {
+    margin-left: 55%;
+    margin-top: 2%;
+    display: flex;
+}
+
+#cafe1 {
+    width: 20%;
+    height: 20%;
+}
+.titulo1{
+    font-size: 350%;
+    color: white;
+}
+.text {
+    color: white;
+    font-size: 300%;
+}
+
+#portada {
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 0px;
+}
+
+button#shop-now {
+    background-color: rgb(200, 146, 74);
+    border-color: rgb(229, 170, 7, 0);
+    font-size: 50%;
+    width: 8%;
+    height: 1%;
+}
+
+button#shop-now:hover {
+    background-color: rgb(168, 115, 41);
+    border-color: rgb(229, 170, 7, 0);
+}
+
+p#shop-now {
+    font-size: 150%;
+}
+
+#historia {
+    display: flex;
+    margin-top: 15%;
+}
+
+img#cafe2 {
+    width: 35%;
+    height: 30%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+#ps {
+    color: white;
+    word-break: break-word;
+    line-break: loose;
+}
+
+#textohistoria {
+    width: 30%;
+}
+
+#linea {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+button#learn-more {
+    background-color: rgb(200, 146, 74);
+    border-color: rgb(229, 170, 7, 0);
+    font-size: 50%;
+    width: 20%;
+    height: 10%;
+    margin-bottom: 30%;
+}
+
+button#learn-more:hover {
+    background-color: rgb(168, 115, 41);
+    border-color: rgb(229, 170, 7, 0);
+}
+
+p#learn-more {
+    font-size: 150%
+}
+
+.corazon {
+    display: flex;
+}
+
+.textoplace {
+    word-break: break-word;
+    line-break: loose;
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 30%;
+}
+
+#cafe3 {
+    width: 20%;
+    height: 20%;
+}
+
+#productos {
+    display: flex;
+    margin-left: 5%;
+}
+
+.productos__descripcion--titulo {
+    color: white;
+    margin-bottom: 25%;
+    margin-top: 30%;
+}
+
+.productos__descripcion--texto {
+    color: white;
+    margin-top: 4%;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: left;
+    display: inline-block;
+}
+
+button.productos__descripcion--boton {
+    margin-top: 25%;
+    background-color: rgb(200, 146, 74);
+    display: block;
+    text-align: center;
+    width: 35%;
+    height: 10%;
+    margin-bottom: 5%;
+    margin-left: 32.5%;
+    padding: 0px;
+
+}
+
+p.productos__descripcion--boton {
+    word-break: keep-all;
+}
+
+.productos__descripcion {
+    border-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 100%;
+    border: 1px solid rgb(200, 146, 74);
+    border-radius: 5px;
+    margin: 3% 5%;
+    text-align: center;
+}
+
+.productos__descripcion--imagen {
+    position: absolute;
+}
+
+#productos__descripcion--imagenuno {
+    width: 7%;
+    margin-left: 13%;
+}
+
+#productos__descripcion--imagendos {
+    width: 7%;
+    margin-left: 46%;
+}
+
+#productos__descripcion--imagentres {
+    width: 7%;
+    margin-left: 80%;
+}
+
+hr {
+    width: 30%;
+    border: none;
+    height: 2px;
+    background-color: #d4a373;
+    margin: 10px auto;
+}
+
+#contact{
+    margin-top: 7%;
+    display: flex;
+    text-align: center  ;
+    margin-left: 6%;
+    margin-bottom: 7%;
+}
+
+.contact__subdivisor{
+    width: 30%;
+}
+
+.contact__tittle{
+    color: white;
+}
+
+.contact__text{
+    color: white;
+    word-break: break-word;
+    line-break: loose;
+    font-size: 90%;
+
+}
+
+b{
+    color: rgb(200, 146, 74);
+}
+
+p.copyright__text{
+    color: white;
+    text-align: center;
+    font-size: 70%;
+}
+
+p{
+    font-family: 'OpenSauce-Black';
+}

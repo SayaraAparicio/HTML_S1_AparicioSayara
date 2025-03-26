@@ -14,6 +14,8 @@ En el siguiente README puedes encontrar todos los trabajos de html hechos, para 
 | 6 | [Dia6](Dia6) |
 | 7 | [Dia7](Dia7) |
 | 8 | [Dia8](Dia8) |
+| 9 | [Dia9](Dia9) |
+| 10 | [Dia10](Dia10) |
 
 ### Instalaciones 🔩
 ---
@@ -44,4 +46,4 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme. 🚀
 
 ---
 
-Hecho por Sayara Aparicio
+Desarrollado por [SayaraAparicio](https://github.com/SayaraAparicio/)
