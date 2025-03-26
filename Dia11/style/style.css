@@ -3,83 +3,80 @@ body{
     margin: auto 20%;
 }
 
-.fondoblack{
+.FondoNegro__Grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: 30px;
+    border-radius: 10px;
     gap: 1.8%;
     background-color: black;
-    width: 120%;
-    height: 150%;
-    margin-top: 7%;
-    padding: 3%;
-    padding-bottom: 5%;
+    width: 100%;
+    margin-top: 3%;
 }
 
 
-.fondoblack-Rc1{
+.FondoNegro__Grid--Rc1{
     grid-row: 1/2;
 }
 
-.fondoblack-Rc1 > iframe{
+.FondoNegro__Grid--Rc1 > iframe{
     width: 100%;
     aspect-ratio: 16/9;
     border-radius: 15px;
 }
 
-.fondoblack-Rc3{
+.FondoNegro__Grid--Rc3{
     grid-row: span 1;
     border-radius: 15px;
 
 }
-.fondoblack-Rc3 > iframe{
+.FondoNegro__Grid--Rc3 > iframe{
     width: 100%;
     aspect-ratio: 16/9;
     border-radius: 15px;
 }
 
-.fondoblack-Rc2{
+.FondoNegro__Grid--Rc2{
     grid-row: span 2;
     border-radius: 15px;
 }
 
-.fondoblack-Rc2 > img{
+.FondoNegro__Grid--Rc2 > img{
     width: 100%;
     border-radius: 15px;
 }
 
-.fondoblack-Rc4{
+.FondoNegro__Grid--Rc4{
     border-radius: 15px;
     grid-column: span 2;
 }
 
-.fondoblack-Rc4 > iframe{
+.FondoNegro__Grid--Rc4 > iframe{
     width: 100%;
     border-radius: 20px;
     aspect-ratio: 16/9;
 }
 
-.fondoblack-Rc1 > iframe,
-.fondoblack-Rc3 > iframe,
-.fondoblack-Rc4 > iframe {
+.FondoNegro__Grid--Rc1 > iframe,
+.FondoNegro__Grid--Rc3 > iframe,
+.FondoNegro__Grid--Rc4 > iframe {
     width: 100%;
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
 }
 
-.fondoblack-Rc1 > img{
-    width: 40%;
+.FondoNegro__Grid--Rc1 > img{
+    width: 100%;
     border-radius: 15px;
 }
 
-.fondoblack-Rc2 > img {
+.FondoNegro__Grid--Rc2 > img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.fondoblack-Seccion2 {
+.FondoNegro__Grid--Seccion2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
