@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    image-rendering: auto;
+    background: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sol {
+    width: 400px;
+    position: relative;
+    top: 0;
+    left: 2500px;
+    animation: sol 5s linear;
+ 
+
+}
+
+@keyframes sol {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+#nube {
+    width: 400px;
+    position: relative;
+    top: 10;
+    left: 100px; 
+
+}
