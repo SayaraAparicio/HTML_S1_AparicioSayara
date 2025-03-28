@@ -6,12 +6,16 @@ body {
     background-attachment: fixed;
 }
 
+.solecito {
+    display: flex;
+    justify-content: center;
+}
+
 #sol {
-    width: 400px;
-    position: relative;
+    width: 40%;
+    height: 40%;
     top: 0;
-    left: 2500px;
-    animation: sol 5s linear;
+    animation: sol 15s linear;
  
 
 }
@@ -22,10 +26,172 @@ body {
   }
 
 
-#nube {
-    width: 400px;
-    position: relative;
-    top: 10;
-    left: 100px; 
+.nubes{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+#nube {  
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 4%;
+    animation: nubesita 2s forwards ease-in-out;
 
 }
+@keyframes nubesita{
+    from{
+        transform: translateX(100vw);
+    }
+    to{
+        transform: translateX(-600px);
+    }
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url(../font/Muthiara\ demo\ version.otf);
+    color: pink;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'myFont';
+}
+
+.textico {
+    position: absolute;
+    opacity: 0;
+    animation: conteo 1s linear forwards;
+    font-size: 100px;
+    font-family: 'myFont'; 
+}
+
+#n1 {
+    animation-delay: 0.2s;
+}
+
+#n2 {
+    animation-delay: 0.5s;
+}
+
+#n3 {
+    animation-delay: 1s;
+}
+
+#accion {
+    animation-delay: 1.5s;
+    font-weight: bold;
+    color: rgb(255, 135, 191);
+}
+
+@keyframes conteo {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.gotita {
+    position: absolute;
+    width: 20px; 
+    visibility: hidden;
+    animation: caer 5s linear infinite, desaparecer 0s linear forwards;
+    opacity: 10;
+  }
+  
+  @keyframes caer {
+    from {
+      transform: translateY(-1050px) ; visibility: visible;;
+      opacity: 20;
+    }
+    to {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+
+  @keyframes desaparecer {
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  .gotas {
+    position: absolute;
+    top:60%;
+    left: 20%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .gotita:nth-child(1) { left: 5%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(2) { left: 15%; animation-duration: 3.5s; animation-delay: 2ms; }
+.gotita:nth-child(3) { left: 5%; animation-duration: 4s; animation-delay: 1s; }
+.gotita:nth-child(4) { left: 10%; animation-duration: 2s; animation-delay: 2s; }
+.gotita:nth-child(5) { left: 25%; animation-duration: 2s; animation-delay: 1.5s; }
+.gotita:nth-child(6) { left: 15%; animation-duration: 3s; animation-delay: 1.8s; }
+.gotita:nth-child(7) { left: 6%; animation-duration: 2s; animation-delay: 2s; }
+.gotita:nth-child(8) { left: 7%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(9) { left: 8%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(10) { left: 9%; animation-duration: 4s; animation-delay: 2s; }
+
+.gotita:nth-child(11) { left: 8%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(12) { left: 18%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(13) { left: 21%; animation-duration: 1s; animation-delay: 2s; }
+.gotita:nth-child(14) { left: 8%; animation-duration: 2s; animation-delay: 2s; }
+.gotita:nth-child(15) { left: 12%; animation-duration: 3s; animation-delay: 1s; }
+.gotita:nth-child(16) { left: 4%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(17) { left: 6%; animation-duration: 3s; animation-delay: 2s; }
+.gotita:nth-child(18) { left: 7%; animation-duration: 2s; animation-delay: 2s; }
+.gotita:nth-child(19) { left: 8%; animation-duration: 2s; animation-delay: 3s; }
+.gotita:nth-child(20) { left: 5%; animation-duration: 2s; animation-delay: 3s; }
+
+.florcita{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+#tulipan{
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    opacity: 0;
+    animation: tulipansube 2s ease-out forwards;
+    animation-delay: 10s; 
+  }
+  
+
+  @keyframes tulipansube {
+    from {
+      top: 100%;
+      opacity: 0;
+    }
+    to {
+      top: 85%;
+      opacity: 1;
+    }
+  }
+  
