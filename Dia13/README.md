@@ -2,7 +2,9 @@
 ---
 ## Animaciones CSS - Naturaleza ✨
 ---
+
 Este proyecto es una animación basada en un GIF de naturaleza, donde elementos como gotas de lluvia, una nube y una flor interactúan en la escena. Se implementaron transiciones y efectos utilizando exclusivamente **CSS**.
+
 ---
 ## 🎨 Características
 ---
@@ -13,9 +15,11 @@ Este proyecto es una animación basada en un GIF de naturaleza, donde elementos 
 4. Flor que crece después de la lluvia 🌷
 
 ---
+
 - Uso de fuentes personalizadas
 
 - Sin necesidad de JavaScript 🛠️
+
 ---
 
 ## 📚 Archivos Incluidos
@@ -28,6 +32,7 @@ style/style.css → Archivo de estilos donde se encuentran las animaciones.
 fonts/ → Carpeta con la fuente personalizada.
 
 img/ → Carpeta con las imágenes utilizadas en la animación.
+
 ---
 
 ## 🛠️ Utilizado
@@ -38,6 +43,7 @@ HTML
 CSS (Animaciones, Transiciones y Keyframes)
 
 Fuentes personalizadas (@font-face)
+
 ---
 
 ## 🔄 Instalación 
@@ -52,6 +58,7 @@ git clone <link del repo>
 Abre el archivo index.html en tu navegador favorito.
 
 Disfruta de la animación en acción. 🌈
+
 ---
 
 ## 🔧 Personalización
